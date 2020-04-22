@@ -1,0 +1,28 @@
+:root {
+  --max-width: 375px;
+  --max-height: 667px;
+  --color-frame: #b1a7a6;
+  --color-body: #F4EBE3;
+  --app-corner-radius: 12px;
+  --app-padding: 10px;
+}
+
+.App {
+  width: var(--max-width);
+  height: var(--max-height);
+  border-radius: 15px;
+  background: var(--color-frame);
+  padding: 5px;
+  padding-top: 15px;
+  margin: 2rem auto;
+
+}
+.contents {
+  background: var(--color-body);
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
