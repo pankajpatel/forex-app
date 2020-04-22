@@ -1,0 +1,7 @@
+.currency,
+.currency-flag {
+  vertical-align: middle;
+  display: inline-block;
+  margin: 5px;
+  font-weight: bold;
+}
