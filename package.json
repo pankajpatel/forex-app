@@ -22,7 +22,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "homepage": "https://pankajpatel.github.io/forex-app/",
+  "homepage": "https://pankaj.pro/forex-app/",
   "browserslist": {
     "production": [
       ">0.2%",
