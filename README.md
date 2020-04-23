@@ -1,4 +1,4 @@
-# forex-app  ![github pages](https://github.com/pankajpatel/forex-app/workflows/github%20pages/badge.svg)
+# forex-app  ![github-pages](https://github.com/pankajpatel/forex-app/workflows/github-pages/badge.svg)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
