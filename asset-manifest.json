@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/forex-app/static/css/main.fd9da9be.chunk.css",
+    "main.js": "/forex-app/static/js/main.7cde9084.chunk.js",
+    "main.js.map": "/forex-app/static/js/main.7cde9084.chunk.js.map",
+    "runtime-main.js": "/forex-app/static/js/runtime-main.4140463d.js",
+    "runtime-main.js.map": "/forex-app/static/js/runtime-main.4140463d.js.map",
+    "static/css/2.84ecba5d.chunk.css": "/forex-app/static/css/2.84ecba5d.chunk.css",
+    "static/js/2.e1f89df3.chunk.js": "/forex-app/static/js/2.e1f89df3.chunk.js",
+    "static/js/2.e1f89df3.chunk.js.map": "/forex-app/static/js/2.e1f89df3.chunk.js.map",
+    "index.html": "/forex-app/index.html",
+    "precache-manifest.11c9cd1b4c2b98f0d735218134fbb946.js": "/forex-app/precache-manifest.11c9cd1b4c2b98f0d735218134fbb946.js",
+    "service-worker.js": "/forex-app/service-worker.js",
+    "static/css/2.84ecba5d.chunk.css.map": "/forex-app/static/css/2.84ecba5d.chunk.css.map",
+    "static/css/main.fd9da9be.chunk.css.map": "/forex-app/static/css/main.fd9da9be.chunk.css.map",
+    "static/js/2.e1f89df3.chunk.js.LICENSE.txt": "/forex-app/static/js/2.e1f89df3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4140463d.js",
+    "static/css/2.84ecba5d.chunk.css",
+    "static/js/2.e1f89df3.chunk.js",
+    "static/css/main.fd9da9be.chunk.css",
+    "static/js/main.7cde9084.chunk.js"
+  ]
+}
