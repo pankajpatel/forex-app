@@ -1,3 +1,8 @@
+.currency-box {
+  display: inline-block;
+  max-width: 80px;
+}
+
 .currency,
 .currency-flag {
   vertical-align: middle;

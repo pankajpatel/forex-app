@@ -1,0 +1,8 @@
+.currency-select {
+  appearance: none;
+  border: none;
+  background: transparent;
+  font-size: 1em;
+  display: inline-block;
+  font-weight: bold;
+}
