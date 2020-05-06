@@ -13,7 +13,7 @@
   --rates-list-height: calc(var(--max-height) - var(--search-frame-space));
 }
 
-.App {
+.app {
   width: var(--max-width);
   height: var(--max-height);
   border-radius: 15px;

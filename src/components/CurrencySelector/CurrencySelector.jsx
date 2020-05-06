@@ -8,10 +8,11 @@ export const CurrencySelector = ({ currency = "usd", onChangeCurrency }) => (
   <div className="currency-box">
     <select
       className="currency-select"
+      value={currency}
       onChange={(e) => onChangeCurrency(e.target.value)}
     >
-      {currencies.map((item) => (
-        <option selected={currency === item}>{item}</option>
+      {currencies.map((item, index) => (
+        <option key={index} >{item}</option>
       ))}
     </select>
     <CurrencyFlag key={`flag-${currency}`} currency={currency} />

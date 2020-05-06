@@ -13,8 +13,8 @@ export const RateList = ({ rates = {}, amount, className = "" }) => (
   <div className={`rate-list-container ${className}`}>
     <div className="rate-list">
       <ul>
-        {Object.keys(rates).map((currency) => (
-          <li key={currency}>
+        {Object.keys(rates).map((currency, index) => (
+          <li key={index}>
             <Currency currency={currency} />
             <Amount rate={rates[currency]} amount={amount} />
           </li>

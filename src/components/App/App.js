@@ -38,7 +38,7 @@ function App() {
     }));
 
   return (
-    <div className="App">
+    <div className="app" data-testid="app-container">
       <main className="contents">
         <SearchBar
           amount={amount}
