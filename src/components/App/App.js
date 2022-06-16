@@ -1,10 +1,12 @@
-import React, { useState, useEffect } from "react";
-import "./App.css";
+import { useState, useEffect } from "react";
 import { getData } from "../../utils/fetch";
 import { SearchBar } from "../SearchBar/SearchBar";
 import { RateList } from "../RateList/RateList";
+import "./App.css";
 
-function App() {
+const getRates = (currency) => getData(`/latest?from=${currency}`)
+
+export const App = () => {
   const [state, setState] = useState({
     amount: 1,
     currency: "USD",
@@ -13,29 +15,15 @@ function App() {
 
   const { amount, currency, rates } = state;
 
-  const getRates = (currency) =>
-    getData(`/latest?from=${currency}`).then(({ rates }) =>
-      setState((currentState) => ({
-        ...currentState,
-        rates,
-      }))
-    );
+  const updateState = (updates = {})  => setState((prev) => ({ ...prev, ...updates }));
 
   useEffect(() => {
-    getRates(currency);
+    getRates(currency).then(updateState);
   }, [currency]);
 
-  const updateAmount = (amount) =>
-    setState((currentState) => ({
-      ...currentState,
-      amount: Number(amount),
-    }));
+  const updateAmount = (amount) => updateState({ amount: Number(amount) });
 
-  const updateCurrency = (currency) =>
-    setState((currentState) => ({
-      ...currentState,
-      currency,
-    }));
+  const updateCurrency = (currency) => updateState({ currency });
 
   return (
     <div className="app" data-testid="app-container">
@@ -51,5 +39,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

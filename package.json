@@ -9,9 +9,9 @@
     "currency-flags": "^2.1.1",
     "postcss": "^7.0.27",
     "postcss-preset-env": "^6.7.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",

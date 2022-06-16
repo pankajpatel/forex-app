@@ -1,4 +1,3 @@
-import * as React from "react";
 import { Currency } from "../Currency/Currency";
 import "./RateList.css";
 

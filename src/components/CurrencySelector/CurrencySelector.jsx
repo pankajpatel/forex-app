@@ -1,6 +1,5 @@
-import * as React from "react";
-import "./CurrencySelector.css";
 import { CurrencyFlag } from "../CurrencyFlag";
+import "./CurrencySelector.css";
 
 const currencies = ["EUR", "USD", "GBP"];
 

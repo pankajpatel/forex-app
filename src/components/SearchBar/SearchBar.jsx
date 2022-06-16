@@ -1,4 +1,3 @@
-import * as React from "react";
 import { CurrencySelector } from "../CurrencySelector/CurrencySelector";
 import "./SearchBar.css";
 

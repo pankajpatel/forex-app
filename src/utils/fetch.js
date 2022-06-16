@@ -26,10 +26,3 @@ export const getData = (url) => request(url, "GET");
 export const postData = (url, data) => request(url, "POST", data);
 export const putData = (url, data) => request(url, "PUT", data);
 export const deleteData = (url) => request(url, "DELETE");
-
-export default {
-  get: getData,
-  post: postData,
-  put: putData,
-  delete: deleteData,
-};
