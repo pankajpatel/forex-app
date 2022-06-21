@@ -1,4 +1,19 @@
-# forex-app  ![github-pages](https://github.com/pankajpatel/forex-app/workflows/github-pages/badge.svg)
+# forex-app 
+
+Created for [Integrating REST API in ReactJS with fetch & useEffect](https://time2hack.com/integrating-rest-api-react-js-fetch-useeffect-hook/)
+
+<p style="text-align:center;">
+  <a 
+    style="display: block; border-radius: 3px; overflow: hidden;"
+    href="https://time2hack.com/integrating-rest-api-react-js-fetch-useeffect-hook/">
+    <img
+      style="width: 768px; max-width: 100%; "
+      src="https://cloudinary.time2hack.com/upload/q_auto:good,f_auto/integrating-rest-api-in-reactjs-with-fetch-and-hooks-social-md.jpg"
+    />
+  </a>
+</p>
+
+----
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
